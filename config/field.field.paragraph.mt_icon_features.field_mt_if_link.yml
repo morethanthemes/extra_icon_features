@@ -3,19 +3,19 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_mt_if_link
-    - paragraphs.paragraphs_type.extra_icon_features
+    - paragraphs.paragraphs_type.mt_icon_features
   module:
     - link
-id: paragraph.extra_icon_features.field_mt_if_link
+id: paragraph.mt_icon_features.field_mt_if_link
 field_name: field_mt_if_link
 entity_type: paragraph
-bundle: extra_icon_features
+bundle: mt_icon_features
 label: Link
-description: ''
+description: ""
 required: false
 translatable: false
-default_value: {  }
-default_value_callback: ''
+default_value: {}
+default_value_callback: ""
 settings:
   title: 1
   link_type: 17

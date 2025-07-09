@@ -2,10 +2,10 @@ langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.extra_icon_features
+    - block_content.type.mt_icon_features
     - core.entity_view_mode.block_content.mt_media_after
-    - field.field.block_content.extra_icon_features.field_mt_if_columns
-    - field.field.block_content.extra_icon_features.field_mt_if_item
+    - field.field.block_content.mt_icon_features.field_mt_if_columns
+    - field.field.block_content.mt_icon_features.field_mt_if_item
   module:
     - entity_reference_revisions
     - layout_builder
@@ -13,9 +13,9 @@ third_party_settings:
   layout_builder:
     enabled: false
     allow_custom: false
-id: block_content.extra_icon_features.mt_media_after
+id: block_content.mt_icon_features.mt_media_after
 targetEntityType: block_content
-bundle: extra_icon_features
+bundle: mt_icon_features
 mode: mt_media_after
 content:
   field_mt_if_item:
@@ -23,8 +23,8 @@ content:
     label: hidden
     settings:
       view_mode: mt_media_after
-      link: ''
-    third_party_settings: {  }
+      link: ""
+    third_party_settings: {}
     weight: 0
     region: content
 hidden:

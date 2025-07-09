@@ -2,22 +2,22 @@ langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.extra_icon_features
-    - field.field.block_content.extra_icon_features.field_mt_if_columns
-    - field.field.block_content.extra_icon_features.field_mt_if_item
+    - block_content.type.mt_icon_features
+    - field.field.block_content.mt_icon_features.field_mt_if_columns
+    - field.field.block_content.mt_icon_features.field_mt_if_item
   module:
     - paragraphs
-id: block_content.extra_icon_features.default
+id: block_content.mt_icon_features.default
 targetEntityType: block_content
-bundle: extra_icon_features
+bundle: mt_icon_features
 mode: default
 content:
   field_mt_if_columns:
     type: options_select
     weight: 1
     region: content
-    settings: {  }
-    third_party_settings: {  }
+    settings: {}
+    third_party_settings: {}
   field_mt_if_item:
     type: paragraphs
     weight: 2
@@ -31,18 +31,18 @@ content:
       closed_mode_threshold: 0
       add_mode: dropdown
       form_display_mode: default
-      default_paragraph_type: extra_icon_features
+      default_paragraph_type: mt_icon_features
       features:
-        add_above: '0'
+        add_above: "0"
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
-    third_party_settings: {  }
+    third_party_settings: {}
   info:
     type: string_textfield
     weight: 0
     region: content
     settings:
       size: 60
-      placeholder: ''
-    third_party_settings: {  }
-hidden: {  }
+      placeholder: ""
+    third_party_settings: {}
+hidden: {}

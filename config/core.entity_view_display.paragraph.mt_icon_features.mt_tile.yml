@@ -2,22 +2,23 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.extra_icon_features.field_mt_if_body
-    - field.field.paragraph.extra_icon_features.field_mt_if_fa_icon
-    - field.field.paragraph.extra_icon_features.field_mt_if_image
-    - field.field.paragraph.extra_icon_features.field_mt_if_link
-    - field.field.paragraph.extra_icon_features.field_mt_if_title
+    - core.entity_view_mode.paragraph.mt_tile
+    - field.field.paragraph.mt_icon_features.field_mt_if_body
+    - field.field.paragraph.mt_icon_features.field_mt_if_fa_icon
+    - field.field.paragraph.mt_icon_features.field_mt_if_image
+    - field.field.paragraph.mt_icon_features.field_mt_if_link
+    - field.field.paragraph.mt_icon_features.field_mt_if_title
     - image.style.4_3_1300x975_focal_point_webp
-    - paragraphs.paragraphs_type.extra_icon_features
+    - paragraphs.paragraphs_type.mt_icon_features
   module:
     - fontawesome
     - image
     - link
     - text
-id: paragraph.extra_icon_features.default
+id: paragraph.mt_icon_features.mt_tile
 targetEntityType: paragraph
-bundle: extra_icon_features
-mode: default
+bundle: mt_icon_features
+mode: mt_tile
 content:
   field_mt_if_body:
     type: text_default

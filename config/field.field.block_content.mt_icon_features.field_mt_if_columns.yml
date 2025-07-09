@@ -2,21 +2,20 @@ langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.extra_icon_features
+    - block_content.type.mt_icon_features
     - field.storage.block_content.field_mt_if_columns
   module:
     - options
-id: block_content.extra_icon_features.field_mt_if_columns
+id: block_content.mt_icon_features.field_mt_if_columns
 field_name: field_mt_if_columns
 entity_type: block_content
-bundle: extra_icon_features
+bundle: mt_icon_features
 label: Columns
-description: ''
+description: ""
 required: true
 translatable: false
 default_value:
-  -
-    value: 'col-lg-3 col-md-6 four-columns'
-default_value_callback: ''
-settings: {  }
+  - value: "col-lg-3 col-md-6 four-columns"
+default_value_callback: ""
+settings: {}
 field_type: list_string

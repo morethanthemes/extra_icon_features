@@ -2,21 +2,21 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.extra_icon_features.field_mt_if_body
-    - field.field.paragraph.extra_icon_features.field_mt_if_fa_icon
-    - field.field.paragraph.extra_icon_features.field_mt_if_image
-    - field.field.paragraph.extra_icon_features.field_mt_if_link
-    - field.field.paragraph.extra_icon_features.field_mt_if_title
+    - field.field.paragraph.mt_icon_features.field_mt_if_body
+    - field.field.paragraph.mt_icon_features.field_mt_if_fa_icon
+    - field.field.paragraph.mt_icon_features.field_mt_if_image
+    - field.field.paragraph.mt_icon_features.field_mt_if_link
+    - field.field.paragraph.mt_icon_features.field_mt_if_title
     - image.style.thumbnail
-    - paragraphs.paragraphs_type.extra_icon_features
+    - paragraphs.paragraphs_type.mt_icon_features
   module:
     - fontawesome
     - image
     - link
     - text
-id: paragraph.extra_icon_features.default
+id: paragraph.mt_icon_features.default
 targetEntityType: paragraph
-bundle: extra_icon_features
+bundle: mt_icon_features
 mode: default
 content:
   field_mt_if_body:
@@ -25,14 +25,14 @@ content:
     region: content
     settings:
       rows: 5
-      placeholder: ''
-    third_party_settings: {  }
+      placeholder: ""
+    third_party_settings: {}
   field_mt_if_fa_icon:
     type: fontawesome_icon_widget
     weight: 1
     region: content
-    settings: {  }
-    third_party_settings: {  }
+    settings: {}
+    third_party_settings: {}
   field_mt_if_image:
     type: image_image
     weight: 2
@@ -40,23 +40,23 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
-    third_party_settings: {  }
+    third_party_settings: {}
   field_mt_if_link:
     type: link_default
     weight: 5
     region: content
     settings:
-      placeholder_url: ''
-      placeholder_title: ''
-    third_party_settings: {  }
+      placeholder_url: ""
+      placeholder_title: ""
+    third_party_settings: {}
   field_mt_if_title:
     type: string_textfield
     weight: 3
     region: content
     settings:
       size: 60
-      placeholder: ''
-    third_party_settings: {  }
+      placeholder: ""
+    third_party_settings: {}
 hidden:
   created: true
   status: true

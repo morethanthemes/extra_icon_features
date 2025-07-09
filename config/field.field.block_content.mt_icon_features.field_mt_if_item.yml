@@ -2,26 +2,26 @@ langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.extra_icon_features
+    - block_content.type.mt_icon_features
     - field.storage.block_content.field_mt_if_item
-    - paragraphs.paragraphs_type.extra_icon_features
+    - paragraphs.paragraphs_type.mt_icon_features
   module:
     - entity_reference_revisions
-id: block_content.extra_icon_features.field_mt_if_item
+id: block_content.mt_icon_features.field_mt_if_item
 field_name: field_mt_if_item
 entity_type: block_content
-bundle: extra_icon_features
-label: 'Icon Feature'
-description: ''
+bundle: mt_icon_features
+label: "Icon Feature"
+description: ""
 required: false
 translatable: false
-default_value: {  }
-default_value_callback: ''
+default_value: {}
+default_value_callback: ""
 settings:
-  handler: 'default:paragraph'
+  handler: "default:paragraph"
   handler_settings:
     target_bundles:
-      extra_icon_features: extra_icon_features
+      mt_icon_features: mt_icon_features
     negate: 0
     target_bundles_drag_drop:
       mt_additional_feature:
@@ -57,7 +57,7 @@ settings:
       mt_how_it_works_item:
         weight: 32
         enabled: false
-      extra_icon_features:
+      mt_icon_features:
         weight: 33
         enabled: true
       mt_image_button:

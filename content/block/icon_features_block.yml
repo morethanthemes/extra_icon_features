@@ -2,7 +2,7 @@ _meta:
   version: "1.0"
   entity_type: block_content
   uuid: bdba9355-2aa9-4f5d-b9ef-f7932e8e3ea7
-  bundle: extra_icon_features
+  bundle: mt_icon_features
   default_langcode: en
 default:
   status:
@@ -21,7 +21,7 @@ default:
           version: "1.0"
           entity_type: paragraph
           uuid: 1b3179eb-ab67-4fb4-a53a-03aaae27122a
-          bundle: extra_icon_features
+          bundle: mt_icon_features
           default_langcode: en
         default:
           status:
@@ -65,7 +65,7 @@ default:
           version: "1.0"
           entity_type: paragraph
           uuid: 4b25a8f5-28cc-4f4d-afd0-0dd0cb3821a8
-          bundle: extra_icon_features
+          bundle: mt_icon_features
           default_langcode: en
         default:
           status:
@@ -109,7 +109,7 @@ default:
           version: "1.0"
           entity_type: paragraph
           uuid: f6fe5d0c-7cb1-43e4-89c2-67393bc38273
-          bundle: extra_icon_features
+          bundle: mt_icon_features
           default_langcode: en
         default:
           status:
@@ -153,7 +153,7 @@ default:
           version: "1.0"
           entity_type: paragraph
           uuid: d1b2f05e-c33f-4828-b618-ca80532f96f2
-          bundle: extra_icon_features
+          bundle: mt_icon_features
           default_langcode: en
         default:
           status:
@@ -197,7 +197,7 @@ default:
           version: "1.0"
           entity_type: paragraph
           uuid: 38c8ccf5-f0c2-460d-8041-a0cbd03ba4e7
-          bundle: extra_icon_features
+          bundle: mt_icon_features
           default_langcode: en
         default:
           status:
@@ -241,7 +241,7 @@ default:
           version: "1.0"
           entity_type: paragraph
           uuid: 4865418d-8a33-4b62-91dc-03e8d89ef53d
-          bundle: extra_icon_features
+          bundle: mt_icon_features
           default_langcode: en
         default:
           status:
@@ -285,7 +285,7 @@ default:
           version: "1.0"
           entity_type: paragraph
           uuid: 14aeac65-0e69-42a2-982c-969d2e64b449
-          bundle: extra_icon_features
+          bundle: mt_icon_features
           default_langcode: en
         default:
           status:
@@ -329,7 +329,7 @@ default:
           version: "1.0"
           entity_type: paragraph
           uuid: 433aa64c-fc68-4ce0-b47f-f9f6eb6224ef
-          bundle: extra_icon_features
+          bundle: mt_icon_features
           default_langcode: en
         default:
           status:

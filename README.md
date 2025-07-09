@@ -98,8 +98,8 @@ The `field_mt_if_columns` field accepts CSS classes for responsive column layout
 
 The recipe provides basic structure but relies on your theme for styling. Common CSS classes to target:
 
-- `.block-extra-icon-features`: Main block wrapper
-- `.paragraph--type--extra-icon-features`: Individual feature items
+- `.block-mt-icon-features`: Main block wrapper
+- `.paragraph--type--mt-icon-features`: Individual feature items
 - `.field--name-field-mt-if-fa-icon`: FontAwesome icon wrapper
 - `.field--name-field-mt-if-title`: Feature title
 - `.field--name-field-mt-if-body`: Feature description

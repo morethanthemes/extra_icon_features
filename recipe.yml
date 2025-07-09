@@ -14,4 +14,4 @@ install:
   - text
 config:
   strict:
-    - block_content.type.extra_icon_features
+    - block_content.type.mt_icon_features

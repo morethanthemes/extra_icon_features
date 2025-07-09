@@ -2,29 +2,28 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.paragraph.mt_tile_large
-    - field.field.paragraph.extra_icon_features.field_mt_if_body
-    - field.field.paragraph.extra_icon_features.field_mt_if_fa_icon
-    - field.field.paragraph.extra_icon_features.field_mt_if_image
-    - field.field.paragraph.extra_icon_features.field_mt_if_link
-    - field.field.paragraph.extra_icon_features.field_mt_if_title
+    - field.field.paragraph.mt_icon_features.field_mt_if_body
+    - field.field.paragraph.mt_icon_features.field_mt_if_fa_icon
+    - field.field.paragraph.mt_icon_features.field_mt_if_image
+    - field.field.paragraph.mt_icon_features.field_mt_if_link
+    - field.field.paragraph.mt_icon_features.field_mt_if_title
     - image.style.4_3_1300x975_focal_point_webp
-    - paragraphs.paragraphs_type.extra_icon_features
+    - paragraphs.paragraphs_type.mt_icon_features
   module:
     - fontawesome
     - image
     - link
     - text
-id: paragraph.extra_icon_features.mt_tile_large
+id: paragraph.mt_icon_features.default
 targetEntityType: paragraph
-bundle: extra_icon_features
-mode: mt_tile_large
+bundle: mt_icon_features
+mode: default
 content:
   field_mt_if_body:
     type: text_default
     label: hidden
-    settings: {  }
-    third_party_settings: {  }
+    settings: {}
+    third_party_settings: {}
     weight: 4
     region: content
   field_mt_if_fa_icon:
@@ -32,16 +31,16 @@ content:
     label: hidden
     settings:
       layers: false
-    third_party_settings: {  }
+    third_party_settings: {}
     weight: 1
     region: content
   field_mt_if_image:
     type: image
     label: hidden
     settings:
-      image_link: ''
+      image_link: ""
       image_style: 4_3_1300x975_focal_point_webp
-    third_party_settings: {  }
+    third_party_settings: {}
     weight: 2
     region: content
   field_mt_if_link:
@@ -51,9 +50,9 @@ content:
       trim_length: 80
       url_only: false
       url_plain: false
-      rel: ''
-      target: ''
-    third_party_settings: {  }
+      rel: ""
+      target: ""
+    third_party_settings: {}
     weight: 5
     region: content
   field_mt_if_title:
@@ -61,7 +60,7 @@ content:
     label: hidden
     settings:
       link_to_entity: false
-    third_party_settings: {  }
+    third_party_settings: {}
     weight: 3
     region: content
-hidden: {  }
+hidden: {}
