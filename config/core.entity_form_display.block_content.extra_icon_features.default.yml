@@ -1,0 +1,48 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.extra_icon_features
+    - field.field.block_content.extra_icon_features.field_mt_if_columns
+    - field.field.block_content.extra_icon_features.field_mt_if_item
+  module:
+    - paragraphs
+id: block_content.extra_icon_features.default
+targetEntityType: block_content
+bundle: extra_icon_features
+mode: default
+content:
+  field_mt_if_columns:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_mt_if_item:
+    type: paragraphs
+    weight: 2
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: extra_icon_features
+      features:
+        add_above: '0'
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

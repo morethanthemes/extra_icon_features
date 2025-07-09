@@ -1,0 +1,10 @@
+{
+    "name": "morethanthemes/extra_icon_features",
+    "description": "Adds Extra Icon Features block type with sample content.",
+    "type": "drupal-recipe",
+    "require": {
+        "drupal/core": ">=10.4 || ^11",
+        "drupal/paragraphs": "^1.19",
+        "drupal/fontawesome": "^3.0"
+    }
+}

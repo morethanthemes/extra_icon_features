@@ -1,0 +1,370 @@
+_meta:
+  version: "1.0"
+  entity_type: block_content
+  uuid: bdba9355-2aa9-4f5d-b9ef-f7932e8e3ea7
+  bundle: extra_icon_features
+  default_langcode: en
+default:
+  status:
+    - value: true
+  info:
+    - value: "Great features at a glance"
+  reusable:
+    - value: true
+  revision_translation_affected:
+    - value: true
+  field_mt_if_columns:
+    - value: "col-lg-3 col-md-6 four-columns"
+  field_mt_if_item:
+    - entity:
+        _meta:
+          version: "1.0"
+          entity_type: paragraph
+          uuid: 1b3179eb-ab67-4fb4-a53a-03aaae27122a
+          bundle: extra_icon_features
+          default_langcode: en
+        default:
+          status:
+            - value: true
+          created:
+            - value: 1576244512
+          behavior_settings:
+            - value: {}
+          field_mt_if_body:
+            - value: "<p>Bring to the table win-win survival strategies.</p>\r\n"
+              format: content_format
+          field_mt_if_fa_icon:
+            - icon_name: battery-full
+              style: fas
+              settings:
+                duotone:
+                  swap-opacity: 0
+                  opacity:
+                    primary: ""
+                    secondary: ""
+                  color:
+                    primary: "#000000"
+                    secondary: "#000000"
+                masking:
+                  mask: ""
+                  style: fas
+                power_transforms:
+                  scale:
+                    type: ""
+                    value: ""
+                  position_y:
+                    type: ""
+                    value: ""
+                  position_x:
+                    type: ""
+                    value: ""
+          field_mt_if_title:
+            - value: "Great battery life"
+    - entity:
+        _meta:
+          version: "1.0"
+          entity_type: paragraph
+          uuid: 4b25a8f5-28cc-4f4d-afd0-0dd0cb3821a8
+          bundle: extra_icon_features
+          default_langcode: en
+        default:
+          status:
+            - value: true
+          created:
+            - value: 1576244605
+          behavior_settings:
+            - value: {}
+          field_mt_if_body:
+            - value: "<p>Bring to the table win-win survival strategies.</p>\r\n"
+              format: content_format
+          field_mt_if_fa_icon:
+            - icon_name: network-wired
+              style: fas
+              settings:
+                duotone:
+                  swap-opacity: 0
+                  opacity:
+                    primary: ""
+                    secondary: ""
+                  color:
+                    primary: "#000000"
+                    secondary: "#000000"
+                masking:
+                  mask: ""
+                  style: fas
+                power_transforms:
+                  scale:
+                    type: ""
+                    value: ""
+                  position_y:
+                    type: ""
+                    value: ""
+                  position_x:
+                    type: ""
+                    value: ""
+          field_mt_if_title:
+            - value: "Great architecture"
+    - entity:
+        _meta:
+          version: "1.0"
+          entity_type: paragraph
+          uuid: f6fe5d0c-7cb1-43e4-89c2-67393bc38273
+          bundle: extra_icon_features
+          default_langcode: en
+        default:
+          status:
+            - value: true
+          created:
+            - value: 1576244625
+          behavior_settings:
+            - value: {}
+          field_mt_if_body:
+            - value: "<p>Bring to the table win-win survival strategies.</p>\r\n"
+              format: content_format
+          field_mt_if_fa_icon:
+            - icon_name: code
+              style: fas
+              settings:
+                duotone:
+                  swap-opacity: 0
+                  opacity:
+                    primary: ""
+                    secondary: ""
+                  color:
+                    primary: "#000000"
+                    secondary: "#000000"
+                masking:
+                  mask: ""
+                  style: fas
+                power_transforms:
+                  scale:
+                    type: ""
+                    value: ""
+                  position_y:
+                    type: ""
+                    value: ""
+                  position_x:
+                    type: ""
+                    value: ""
+          field_mt_if_title:
+            - value: "Great codebase"
+    - entity:
+        _meta:
+          version: "1.0"
+          entity_type: paragraph
+          uuid: d1b2f05e-c33f-4828-b618-ca80532f96f2
+          bundle: extra_icon_features
+          default_langcode: en
+        default:
+          status:
+            - value: true
+          created:
+            - value: 1576244648
+          behavior_settings:
+            - value: {}
+          field_mt_if_body:
+            - value: "<p>Bring to the table win-win survival strategies.</p>\r\n"
+              format: content_format
+          field_mt_if_fa_icon:
+            - icon_name: comments
+              style: fas
+              settings:
+                duotone:
+                  swap-opacity: 0
+                  opacity:
+                    primary: ""
+                    secondary: ""
+                  color:
+                    primary: "#000000"
+                    secondary: "#000000"
+                masking:
+                  mask: ""
+                  style: fas
+                power_transforms:
+                  scale:
+                    type: ""
+                    value: ""
+                  position_y:
+                    type: ""
+                    value: ""
+                  position_x:
+                    type: ""
+                    value: ""
+          field_mt_if_title:
+            - value: "Great interactivity"
+    - entity:
+        _meta:
+          version: "1.0"
+          entity_type: paragraph
+          uuid: 38c8ccf5-f0c2-460d-8041-a0cbd03ba4e7
+          bundle: extra_icon_features
+          default_langcode: en
+        default:
+          status:
+            - value: true
+          created:
+            - value: 1576244673
+          behavior_settings:
+            - value: {}
+          field_mt_if_body:
+            - value: "<p>Bring to the table win-win survival strategies.</p>\r\n"
+              format: content_format
+          field_mt_if_fa_icon:
+            - icon_name: bell
+              style: fas
+              settings:
+                duotone:
+                  swap-opacity: 0
+                  opacity:
+                    primary: ""
+                    secondary: ""
+                  color:
+                    primary: "#000000"
+                    secondary: "#000000"
+                masking:
+                  mask: ""
+                  style: fas
+                power_transforms:
+                  scale:
+                    type: ""
+                    value: ""
+                  position_y:
+                    type: ""
+                    value: ""
+                  position_x:
+                    type: ""
+                    value: ""
+          field_mt_if_title:
+            - value: " Notifications"
+    - entity:
+        _meta:
+          version: "1.0"
+          entity_type: paragraph
+          uuid: 4865418d-8a33-4b62-91dc-03e8d89ef53d
+          bundle: extra_icon_features
+          default_langcode: en
+        default:
+          status:
+            - value: true
+          created:
+            - value: 1576244698
+          behavior_settings:
+            - value: {}
+          field_mt_if_body:
+            - value: "<p>Bring to the table win-win survival strategies.</p>\r\n"
+              format: content_format
+          field_mt_if_fa_icon:
+            - icon_name: lightbulb
+              style: fas
+              settings:
+                duotone:
+                  swap-opacity: 0
+                  opacity:
+                    primary: ""
+                    secondary: ""
+                  color:
+                    primary: "#000000"
+                    secondary: "#000000"
+                masking:
+                  mask: ""
+                  style: fas
+                power_transforms:
+                  scale:
+                    type: ""
+                    value: ""
+                  position_y:
+                    type: ""
+                    value: ""
+                  position_x:
+                    type: ""
+                    value: ""
+          field_mt_if_title:
+            - value: "Lightning speed"
+    - entity:
+        _meta:
+          version: "1.0"
+          entity_type: paragraph
+          uuid: 14aeac65-0e69-42a2-982c-969d2e64b449
+          bundle: extra_icon_features
+          default_langcode: en
+        default:
+          status:
+            - value: true
+          created:
+            - value: 1576244734
+          behavior_settings:
+            - value: {}
+          field_mt_if_body:
+            - value: "<p>Bring to the table win-win survival strategies.</p>\r\n"
+              format: content_format
+          field_mt_if_fa_icon:
+            - icon_name: calculator
+              style: fas
+              settings:
+                duotone:
+                  swap-opacity: 0
+                  opacity:
+                    primary: ""
+                    secondary: ""
+                  color:
+                    primary: "#000000"
+                    secondary: "#000000"
+                masking:
+                  mask: ""
+                  style: fas
+                power_transforms:
+                  scale:
+                    type: ""
+                    value: ""
+                  position_y:
+                    type: ""
+                    value: ""
+                  position_x:
+                    type: ""
+                    value: ""
+          field_mt_if_title:
+            - value: "The power of numbers"
+    - entity:
+        _meta:
+          version: "1.0"
+          entity_type: paragraph
+          uuid: 433aa64c-fc68-4ce0-b47f-f9f6eb6224ef
+          bundle: extra_icon_features
+          default_langcode: en
+        default:
+          status:
+            - value: true
+          created:
+            - value: 1576244766
+          behavior_settings:
+            - value: {}
+          field_mt_if_body:
+            - value: "<p>Bring to the table win-win survival strategies.</p>\r\n"
+              format: content_format
+          field_mt_if_fa_icon:
+            - icon_name: child
+              style: fas
+              settings:
+                duotone:
+                  swap-opacity: 0
+                  opacity:
+                    primary: ""
+                    secondary: ""
+                  color:
+                    primary: "#000000"
+                    secondary: "#000000"
+                masking:
+                  mask: ""
+                  style: fas
+                power_transforms:
+                  scale:
+                    type: ""
+                    value: ""
+                  position_y:
+                    type: ""
+                    value: ""
+                  position_x:
+                    type: ""
+                    value: ""
+          field_mt_if_title:
+            - value: Children-friendly

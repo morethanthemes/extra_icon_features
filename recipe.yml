@@ -1,0 +1,17 @@
+name: "Extra Icon Features"
+description: "Adds an Icon Features block type with sample content."
+type: "Site"
+install:
+  - block_content
+  - entity_reference_revisions
+  - file
+  - fontawesome
+  - image
+  - layout_builder
+  - link
+  - options
+  - paragraphs
+  - text
+config:
+  strict:
+    - block_content.type.extra_icon_features

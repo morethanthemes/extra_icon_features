@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_mt_if_columns
+field_name: field_mt_if_columns
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'col-lg-3 col-md-6 four-columns'
+      label: '4 Columns'
+    -
+      value: 'col-lg-4 col-md-6 three-columns'
+      label: '3 Columns'
+    -
+      value: 'col-md-6 two-columns'
+      label: '2 Columns'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

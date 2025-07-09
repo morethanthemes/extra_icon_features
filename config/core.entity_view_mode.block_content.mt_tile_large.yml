@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.mt_tile_large
+label: 'Tile Large'
+targetEntityType: block_content
+cache: true
