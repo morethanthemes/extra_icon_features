@@ -16,12 +16,19 @@ The Extra Icon Features recipe provides a customizable block type that allows yo
 ## Requirements
 
 - Drupal 10.4+ or Drupal 11+
+- Composer package manager
 - Paragraphs module (^1.19)
 - FontAwesome module (^3.0)
 
 ## Installation
 
-This recipe can be installed using Drupal's recipe system:
+To install via Composer, run:
+
+```sh
+composer require morethanthemes/extra_block
+````
+
+This recipe can be applied using Drupal's recipe system:
 
 ```bash
 # From your Drupal root directory
@@ -120,16 +127,6 @@ Customize the display by creating or modifying view modes:
 2. Edit existing view modes or create new ones
 3. Configure field display settings for each view mode
 
-## Maintenance
-
-This recipe is designed to be a starting point. Once installed, you can:
-
-- Modify field configurations
-- Add new display modes
-- Customize form displays
-- Create additional view modes
-- Extend with custom field types
-
 ## Troubleshooting
 
 ### FontAwesome Icons Not Displaying
@@ -144,10 +141,15 @@ This recipe is designed to be a starting point. Once installed, you can:
 - Ensure your theme includes Bootstrap or compatible grid system
 - Check view mode configurations for proper field display
 
-## Support
+## License
 
-For issues related to this recipe, please refer to:
+Licensed under **GPL-2.0-or-later**.
 
-- Drupal community forums
-- FontAwesome module documentation
-- Paragraphs module documentation
+## Organization
+
+Developed by **[More than Themes](https://morethanthemes.com)** for [Webmaker+](https://webmaker.morethanthemes.com)
+
+## Contributing
+
+Contributions are welcome! Feel free to submit issues or feature requests.
+
